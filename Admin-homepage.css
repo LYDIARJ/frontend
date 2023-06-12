@@ -1,0 +1,101 @@
+
+.btn {
+  min-width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.navbar {
+  background-color: rgb(187, 54, 54);
+}
+
+.edit-btn {
+  margin-bottom: 20px;
+}
+
+#sidebar {
+  height: 100%;
+  background: #eee;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#profile {
+  background: #ddd;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.add-doctor {
+  background:rgb(199, 212, 240);
+  border: 1px solid #ddd;
+}
+
+.ed-del
+ {
+  background:rgb(199, 212, 240);
+  border: 1px solid #ddd;
+}
+
+.add-btn
+{
+ color:rgb(255, 255, 255);
+ background-color: rgb(68, 77, 156);
+}
+
+.edit-btn1
+{
+ color:rgb(255, 255, 255);
+ background-color: rgb(68, 77, 156);
+}
+
+.edit-btn2
+{
+ color:rgb(255, 255, 255);
+ background-color: rgb(68, 77, 156);
+}
+
+.del-btn1
+{
+  color:rgb(255, 255, 255);
+  background-color: rgb(155, 83, 83);
+}
+
+.del-btn2
+{
+  color:rgb(255, 255, 255);
+  background-color: rgb(155, 83, 83);
+}
+
+.Search-btn
+{
+  color:rgb(255, 255, 255);
+  background-color: rgb(68, 77, 156);
+}
+
+.add-btn,
+.edit-btn1,
+.edit-btn2,
+.del-btn1,
+.del-btn2
+{
+  width: 30%;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.ed-del .d-flex.justify-content-center
+{
+  margin-top: 10px;
+}

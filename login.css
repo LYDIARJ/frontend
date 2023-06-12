@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("gew4UB-transformed.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #c6dcf4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .button-group {
+    float: right;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .user-button,
+  .admin-button {
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: #061064;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-button:hover,
+  .admin-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .admin-button {
+    margin-left: 10px;
+  }
+  
+  .profile-icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    border: 2px solid #061064;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 80px;
+    background-color: #eeeff1;
+  }
+  
+  .form-fields,
+  .login-button,
+  .register-link 
+  {
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] 
+  {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button.login-button 
+  {
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #061064;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.login-button:hover 
+  {
+    background-color: #0056b3;
+  }
+  
+  .register-link
+   {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .register-link a 
+  {
+    color:#061064;
+    transition: color 0.3s ease;
+  }
+  
+  .register-link a:hover 
+  {
+    color: red;
+  }
+  
